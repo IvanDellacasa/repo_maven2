@@ -4,7 +4,7 @@ import org.junit.Assert;
 
 import org.junit.jupiter.api.Test;
 
-class TestCalcolatrice2 {
+class TestCalcolatrice {
 
 	@Test
 	public void testSomma1() 
