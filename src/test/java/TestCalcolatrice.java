@@ -3,7 +3,6 @@ import org.junit.jupiter.api.Test;
 
 import junit.framework.Assert;
 
-@SuppressWarnings("deprecation")
 class TestCalcolatrice {
 
 	@Test
