@@ -1,9 +1,9 @@
-import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
 import junit.framework.Assert;
 
+@SuppressWarnings("deprecation")
 class TestCalcolatrice {
 
 	@Test
@@ -15,6 +15,7 @@ class TestCalcolatrice {
 		
 		Assert.assertEquals(11, res, 0);
 	}
+
 	@Test
 	void testSomma2() 
 	{
@@ -24,5 +25,4 @@ class TestCalcolatrice {
 		
 		Assert.assertEquals(11, res, 0);
 	}
-
 }
