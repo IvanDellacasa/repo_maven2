@@ -11,7 +11,7 @@ class TestCalcolatrice {
 	{
 		calcolatrice c = new calcolatrice();
 		
-		double res = c.somma(5,6);
+		double res = c.somma(5,6); 
 		
 		Assert.assertEquals(11, res, 0);
 	}
