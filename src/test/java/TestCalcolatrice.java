@@ -7,7 +7,7 @@ import junit.framework.Assert;
 class TestCalcolatrice {
 
 	@Test
-	void testSomma1() 
+	public void testSomma1() 
 	{
 		calcolatrice c = new calcolatrice();
 		
@@ -17,7 +17,7 @@ class TestCalcolatrice {
 	}
 
 	@Test
-	void testSomma2() 
+	public void testSomma2() 
 	{
 		calcolatrice c = new calcolatrice();
 		
