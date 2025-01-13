@@ -14,7 +14,7 @@ class TestCalcolatrice {
 		double res = c.somma(2,5); 
 		
 		Assert.assertEquals(7, res, 0);
-	}
+	} 
 	
 	@Test
 	public void testSomma2() 
