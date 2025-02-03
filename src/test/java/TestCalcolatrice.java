@@ -13,7 +13,7 @@ class TestCalcolatrice {
 		
 		double res = c.somma(2,5); 
 		
-		Assert.assertEquals(7, res, 0);
+		assertEquals(7, res);
 	} 
 	
 	@Test
@@ -23,7 +23,7 @@ class TestCalcolatrice {
 		
 		double res = c.somma(2,0); 
 		
-		Assert.assertEquals(2, res, 0);
+		assertEquals(2, res);
 	}
 	
 	@Test
@@ -45,5 +45,32 @@ class TestCalcolatrice {
 		
 		Assert.assertEquals(3, res, 0);
 	}
+	@Test
+	public void testMoltiplicazione1() 
+	{
+		calcolatrice c = new calcolatrice();
+		
+		double res = c.moltiplicazione(5,2); 
+		
+		Assert.assertEquals(10, res, 0);
+	}
+	@Test
+	public void testDivisione1() 
+	{
+		calcolatrice c = new calcolatrice();
+		
+		double res = c.divisione(6,2); 
+		
+		Assert.assertEquals(3, res, 0);
+	}
+	//@Test
+	/*public void testDivisione2() 
+	{
+		calcolatrice c = new calcolatrice();
+		
+		double res = c.divisione(6,0); 
+		
+		Assert.assertEquals(3, res, 0);
+	}*/
 
 }

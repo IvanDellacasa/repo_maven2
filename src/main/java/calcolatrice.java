@@ -29,4 +29,20 @@ public class calcolatrice
 		diff=d1-d2;
 		return diff;
 	}
+	public double moltiplicazione (double d1, double d2) 
+	{
+		double risultato = 0;
+		risultato=d1*d2;
+		return risultato;
+	}
+	public double divisione (double d1, double d2) 
+	{
+		if(d2 == 0) 
+		{
+			
+		}
+		double risultato = 0;
+		risultato=d1/d2;
+		return risultato;
+	}
 }
