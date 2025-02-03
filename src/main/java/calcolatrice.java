@@ -5,21 +5,32 @@ public class calcolatrice
 		double s= 0;
 		for(double addendo : addendi)
 		{
-			
-			s=s+Math.abs(addendo);
-			if(addendo <0) 
+			if(addendo < 0)
+
 			{
-				System.out.println("addendo è negativo");
+
+				System.out.println("val < 0");
+
 			}
-			if(addendo ==0) 
+
+			if(addendo == 0)
+
 			{
-				System.out.println("addendo è zero");
+
+				System.out.println("val == 0");
+
 			}
-			if(addendo >0) 
+
+			if(addendo > 0)
+
 			{
-				System.out.println("addendo è positivo");
+
+				System.out.println("val > 0");
+
 			}
-			s=s+addendo;
+
+			s = s + addendo;
+
 		}
 		return s;
 	}
